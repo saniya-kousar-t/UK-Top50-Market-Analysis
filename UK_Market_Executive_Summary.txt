@@ -1,0 +1,67 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  UK TOP 50 MARKET STRUCTURE ANALYSIS                         ║
+║                    Executive Summary for Atlantic Recording                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+ANALYSIS PERIOD: May 2024 - November 2025
+DATASET: 27,800 entries | 364 unique artists
+
+═══════════════════════════════════════════════════════════════════════════════
+
+KEY FINDINGS:
+
+1. MARKET STRUCTURE (HHI = 114)
+   • HIGHLY COMPETITIVE
+   • 364 unique artists
+   • Top 5 = 15.0% market share
+   → Opportunity for all artists
+
+2. COLLABORATIONS (18.4%)
+   • Peak at positions 11-25 (20.2%)
+   → Use features for mid-chart
+
+3. EXPLICIT CONTENT (32.1%)
+   • 40.4% in Top 10
+   → UK embraces explicit
+
+4. RELEASE STRATEGY
+   • Singles rank 5 positions HIGHER (22.2 vs 27.7)
+   → Lead with singles
+
+5. DURATION (3.29 minutes)
+   • 60.4% long-form
+   → Maintain 3-3.5 min
+
+6. GEOGRAPHY (91.6% international)
+   → Build global positioning
+
+═══════════════════════════════════════════════════════════════════════════════
+
+STRATEGIC RECOMMENDATIONS:
+
+✓ Build rosters with collaboration networks
+✓ Lead with SINGLES for chart penetration
+✓ Release BOTH explicit and clean versions
+✓ Fund collaboration ecosystem
+✓ Maintain 3-3.5 min duration
+✓ Build global positioning
+
+═══════════════════════════════════════════════════════════════════════════════
+
+KPI SUMMARY:
+
+HHI Index....................... 114
+Unique Artists.................. 364
+Collaboration (%)............... 18.44
+Explicit Content (%)............ 32.06
+Single/Album Ratio.............. 0.66
+Top 5 Market Share (%).......... 15.01
+Top 10 Market Share (%)......... 22.37
+Avg Duration (min).............. 3.29
+Avg Popularity.................. 86.79
+
+═══════════════════════════════════════════════════════════════════════════════
+Report Generated: November 2025
+Data Period: May 2024 - November 2025
+═══════════════════════════════════════════════════════════════════════════════
