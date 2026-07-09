@@ -240,11 +240,18 @@ with tab3:
                         color_discrete_map={'Clean': '#4CAF50', 'Explicit': '#FF5252'})
             st.plotly_chart(fig, use_container_width=True)
         with col2:
+    if len(df_filtered) > 0:
+        try:
             explicit_by_pos = df_filtered.groupby(pd.cut(df_filtered['position'], bins=[0, 10, 25, 50]))['is_explicit'].mean() * 100
-            fig = px.bar(x=['Top 10', 'Positions 11-25', 'Positions 26-50'],
-                        y=explicit_by_pos.values, color=explicit_by_pos.values,
-                        color_continuous_scale='Reds')
-            st.plotly_chart(fig, use_container_width=True)
+            if len(explicit_by_pos) > 0:
+                fig = px.bar(x=['Top 10', 'Positions 11-25', 'Positions 26-50'][:len(explicit_by_pos)],
+                            y=explicit_by_pos.values, color=explicit_by_pos.values,
+                            color_continuous_scale='Reds')
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("No data for this position range in filtered data")
+        except:
+            st.warning("Unable to display chart with current filters")
     else:
         st.warning("No data matching filters")
 
@@ -287,7 +294,9 @@ with tab6:
         collaborations = create_collaboration_network(df_filtered)
         col1, col2 = st.columns(2)
         with col1:
-            collab_by_pos = df_filtered.groupby('position')['is_collaboration'].mean() * 100
+    if len(df_filtered) > 0:
+        collab_by_pos = df_filtered.groupby('position')['is_collaboration'].mean() * 100
+        if len(collab_by_pos) > 0:
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=collab_by_pos.index, y=collab_by_pos.values,
                                     fill='tozeroy', mode='lines+markers', name='Collab %',
