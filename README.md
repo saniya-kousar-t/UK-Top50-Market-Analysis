@@ -152,15 +152,11 @@ Detailed collaboration metrics including position-based analysis and artist stat
 
 ## 👤 Author
 
-**Saniya Kousar T**
-- 🎓 B.E. Electronics & Communication Engineering (HKBK, CGPA: 8.9)
-- 🤖 IIT Guwahati E&ICT Academy - Generative AI & ML Certificate
-- 💼 DSML Internship - IIMSTC (Pothole Priority Predictor)
-- 📊 Data Analyst & ML Engineer
-
-📧 **Contact:** saniyakousart@gmail.com  
+**Saniya Kousar T*
 🔗 **GitHub:** github.com/saniya-kousar-t  
-💼 **LinkedIn:** [Your LinkedIn URL]
+💼 **LinkedIn:** www.linkedin.com/in/
+saniya-kousar-t-1272b925b
+
 
 ---
 
